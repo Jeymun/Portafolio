@@ -50,6 +50,16 @@ header {
   transform: scale(1.1);
 }
 
+.logo2 {
+  position: relative;
+  width: 5vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px solid #9854c2;
+  cursor: pointer;
+  transition: 0.2s linear;
+  size: 3rem;
+}
+
 nav a {
   font-size: 1.8rem;
   color: white;
@@ -145,6 +155,49 @@ section {
   font-size: 1.8rem;
   font-weight: 500;
 }
+
+.home2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: black;
+}
+
+.home2 .home2-content h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.home2-content h3 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.home2-content p {
+  font-size: 1.6rem;
+}
+
+.home2img {
+  border-radius: 50%;
+}
+
+.home2-img img {
+  position: relative;
+  width: 32vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px solid #9854c2;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.home2-img img:hover {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
 
 /* Social Icons */
 .social-icons a {
