@@ -327,6 +327,24 @@ section {
   transition: transform 0.3s;
 }
 
+.certificado {
+  width: 50rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.certificado img {
+  width: 40rem; /* más chico que el contenedor */
+  height: auto;
+  object-fit: contain;
+}
+
+
 .habilidad:hover {
   transform: scale(1.05);
 }
